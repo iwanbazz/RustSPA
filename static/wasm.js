@@ -624,12 +624,12 @@ async function init(input) {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper3480 = logError(function(arg0, arg1, arg2) {
-        var ret = makeMutClosure(arg0, arg1, 151, __wbg_adapter_25);
+    imports.wbg.__wbindgen_closure_wrapper5049 = logError(function(arg0, arg1, arg2) {
+        var ret = makeMutClosure(arg0, arg1, 212, __wbg_adapter_22);
         return addHeapObject(ret);
     });
-    imports.wbg.__wbindgen_closure_wrapper4695 = logError(function(arg0, arg1, arg2) {
-        var ret = makeMutClosure(arg0, arg1, 211, __wbg_adapter_22);
+    imports.wbg.__wbindgen_closure_wrapper3744 = logError(function(arg0, arg1, arg2) {
+        var ret = makeMutClosure(arg0, arg1, 153, __wbg_adapter_25);
         return addHeapObject(ret);
     });
 

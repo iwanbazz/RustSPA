@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>RustSPA</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width"
+      key="viewport"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
@@ -15,11 +19,12 @@
     />
     <link rel="stylesheet" type="text/css" href="/styles.css" />
     <script type="module">
-      import init from './wasm.js';
+      import init from '/wasm.js';
       init();
     </script>
     <link rel="shortcut icon" href="#" />
   </head>
+
   <body>
     <div class="loading_spinner_container">
       <div class="loading_spinner"></div>

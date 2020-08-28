@@ -1,4 +1,9 @@
+.DS_Store
 /target
 Cargo.lock
+static/*.wasm
+static/*.d.ts
+static/wasm.js
+static/package.json
 
 http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/
